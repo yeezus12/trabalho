@@ -1,10 +1,10 @@
-function alternarTExto(){
+function alternarTexto(){
     document.getElementById("text").innerText = "Ao clicar, eu mudei!";
 }
 function adicionarParagrafo(){
     const novoParagrafo = document.createElement("p");
     novoParagrafo.innerText = "Depois que voce cliqcou, eu apareci😃​ !";
-    document.body.appendDhild(novoParagrafo);
+    document.body.appendChild(novoParagrafo);
 }
 function removerParagrafo(){
     const paragrafos = document.querySelectorAll("p")
